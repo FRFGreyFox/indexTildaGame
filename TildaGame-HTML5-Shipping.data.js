@@ -18,7 +18,7 @@ Module.expectedDataFileDownloads++;
     } else {
       throw 'using preloaded data can only be done on a web page or in a web worker';
     }
-    var PACKAGE_NAME = 'C:/Users/GreyFox/Documents/Unreal Projects/TildaGame/Binaries/HTML5/TildaGame-HTML5-Shipping.data';
+    var PACKAGE_NAME = 'TildaGame-HTML5-Shipping.data';
     var REMOTE_PACKAGE_BASE = 'TildaGame-HTML5-Shipping.data';
     if (typeof Module['locateFilePackage'] === 'function' && !Module['locateFile']) {
       Module['locateFile'] = Module['locateFilePackage'];
